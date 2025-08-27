@@ -290,14 +290,14 @@ div img {
 }
 
 .card-title {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.178);
     text-align: center;
 }
 
 .card-text {
-    color: rgb(0, 0, 0);
-    background-color: rgb(148, 143, 143);
+    color: rgb(255, 255, 255);
+    background-color: rgba(87, 85, 85, 0.699);
     text-align: center;
     font-style: italic;
 }
