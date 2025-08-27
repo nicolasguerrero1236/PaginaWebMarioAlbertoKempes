@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Alberto Kempes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="icon" href="fotos/icono_head.jpeg" type="image/png">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="logo">
+                <img src="../fotos/logo_cordoba.jpg" alt="Logo">
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/page/instalaciones.html">Instalaciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/page/eventos.html">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <!-- FORMULARIOS -->
+        <form class="formulario_contacto" action="guerreronico69@gmail.com" method="post">
+            <!-- ACTION ES URL DONDE QUERES RECIBIR LA INFORMACION DEL FORMULARIO -->
+            <!-- METHOD ES EL METODO PARA RECIBIRLO -->
+
+            <label for="nombre">Nombre</label> <!-- ACOMPAÑA AL INPUT, AGREGA UN TEXTO PARA SABER QUE PONER -->
+            <input type="text" name="nombre" id="nombre">
+            <!-- INPUT text ES PARA QUE EL USUARIO INGRESE INFORMACION DE TIPO TEXTO -->
+
+            <br>
+
+            <label for="telefono">Telefono</label>
+            <input type="number" name="telefono" id="telefono">
+            <!-- INPUT number ES PARA QUE EL USUARIO INGRESE INFORMACION DE TIPO NUMERO -->
+
+            <br>
+
+            <label for="email">Correo electronico</label>
+            <input type="email" name="email" id="email">
+            <!-- INPUT email ES PARA QUE EL USUARIO INGRESE INFORMACION DE TIPO CORREO ELECTRONICO -->
+
+            <br>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <!-- TEXTAREA ES PARA QUE EL USUARIO INGRESE INFORMACION DE TIPO MENSAJE -->
+
+            <br>
+
+            <label for="genero">Genero:</label>
+            <input type="radio" name="" id=""> <!-- INPUT radio ES PARA QUE EL USUARIO SELECCIONE UNA OPCION -->
+            <label for="">Hombre</label>
+
+            <input type="radio" name="" id="">
+            <label for="">Mujer</label>
+
+            <input type="radio" name="" id="">
+            <label for="">Prefiero no decirlo</label>
+
+            <br>
+
+            <label for="provincia">Provincia</label>
+            <select name="" id=""> <!-- INPUT radio ES PARA QUE EL USUARIO SELECCIONE UNA OPCION -->
+
+                <option value="">Cordoba</option>
+                <option value="">Tucuman</option>
+                <option value="">Buenos Aires</option>
+
+            </select>
+
+            <input type="submit" value="Enviar">
+
+
+        </form>
+    </main>
+
+    <footer>
+        <p>©Mario Alberto Kempes 2025</p>
+        <div class="pie">
+            <a href="https://www.instagram.com/"><img src="../fotos/instagram.jpg" alt=""></a>
+            <a href="https://web.whatsapp.com/"><img src="../fotos/whatsapp.jpg" alt=""></a>
+            <a href="https://www.youtube.com/"><img src="../fotos/youtube.jpg" alt=""></a>
+            <a href="https://www.facebook.com/?locale=es_LA"><img src="../fotos/facebook.jpg" alt=""></a>
+        </div>
+        <p>Numero de Telefono 351 872-2739</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
