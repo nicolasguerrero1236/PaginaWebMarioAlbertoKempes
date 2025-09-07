@@ -154,7 +154,7 @@ body main {
 }
 
 /* imagen de banda cordoba */
-div img {
+.banda_cordoba {
     display: flex;
     margin: 0 auto;
     max-width: 100%;

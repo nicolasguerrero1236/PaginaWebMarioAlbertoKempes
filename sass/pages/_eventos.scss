@@ -1,0 +1,72 @@
+/*COMIENZO PAGINA EVENTOS*/
+.titulo_eventos {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    font-size: 5vw;
+    border-radius: 30px;
+}
+
+.eventos {
+    color: rgb(248, 248, 255);
+    background-image: url(../fotos/fondo_parrafo.jpg);
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    padding: 20px;
+    width: 100%;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 10px;
+
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        .card {
+            background-color: darkgrey;
+
+            .eventos img {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .card-title {
+                color: rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, 0.178);
+                text-align: center;
+            }
+
+            .card-text {
+                color: rgb(255, 255, 255);
+                background-color: rgba(87, 85, 85, 0.699);
+                text-align: center;
+                font-style: italic;
+            }
+
+            .btn-primary {
+                background-color: rgb(255, 255, 255);
+            }
+
+            .btn-primary:hover {
+                color: #ffe600;
+                background-color: #001affe5;
+                border-color: #fbff00;
+            }
+
+            .eventos a {
+                color: black;
+                text-align: center;
+            }
+
+            .eventos a {
+                display: flex;
+                text-align: justify;
+                text-decoration: none;
+                color: rgb(0, 191, 255);
+            }
+        }
+    }
+
+
+}
