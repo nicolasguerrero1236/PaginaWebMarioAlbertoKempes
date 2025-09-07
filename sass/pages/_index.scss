@@ -1,3 +1,5 @@
+@use "../generales/reset" as*;
+
 /*COMIENZO INDEX*/
 .contenedor_grid {
     display: grid;
@@ -77,6 +79,7 @@
 
 .banda_cordoba {
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     max-width: 100%;
 }
@@ -95,25 +98,25 @@
     margin-bottom: 0%;
     margin-top: 0%;
 
-    .historia h2 {
+    h2 {
         text-align: center;
         font-size: 50px;
         text-decoration: underline;
     }
 
-    .historia h3 {
+    h3 {
         margin: 5%;
         font-size: 33px;
         text-decoration: underline;
     }
 
-    .historia p {
+    p {
         font-size: 25px;
         text-align: center;
         font-style: italic;
     }
 
-    .historia img {
+    img {
         display: block;
         margin: 0 auto;
         width: 50%;

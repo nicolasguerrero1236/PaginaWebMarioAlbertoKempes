@@ -1,6 +1,9 @@
+@use "./variables" as*;
+
 /* cuerpo */
+
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: $fuente;
     background-image: url(../fotos/fondo.jpg);
 
     main {
