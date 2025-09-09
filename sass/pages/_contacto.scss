@@ -54,15 +54,27 @@
     fieldset {
         border: none;
         display: flex;
-        justify-content: space-around;
-        font-size: 0.9rem;
-        gap: 15px; // Espacio entre cada opción
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
 
-        label {
-            font-weight: normal;
+        legend {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .generos-opciones {
             display: flex;
-            align-items: center;
-            gap: 5px; // Espacio entre el radio y el texto
+            flex-wrap: wrap;
+            gap: 10px;
+
+            label {
+                font-weight: normal;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                white-space: nowrap;
+            }
         }
     }
 
