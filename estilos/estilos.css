@@ -194,19 +194,21 @@ body main {
   color: rgb(250, 235, 215);
   margin-bottom: 0%;
   margin-top: 0%;
+  text-align: center;
 }
-.instalaciones .instalaciones img {
+.instalaciones img {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
   border-radius: 30px;
+  justify-content: center;
 }
-.instalaciones .instalaciones h2 {
+.instalaciones h2 {
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
 }
-.instalaciones .instalaciones p {
+.instalaciones p {
   font-size: 20px;
 }
 
@@ -261,28 +263,87 @@ body main {
   background-color: rgba(0, 26, 255, 0.8980392157);
   border-color: #fbff00;
 }
-.eventos article .card .eventos a {
+.eventos article .card a {
   color: black;
   text-align: center;
 }
-.eventos article .card .eventos a {
+.eventos article .card a {
   display: flex;
   text-align: justify;
   text-decoration: none;
   color: rgb(0, 191, 255);
 }
 
-/* inicio pagina contacto */
+/* FORMULARIO DE CONTACTO */
+.contacto {
+  text-align: center;
+  margin: 40px 0;
+}
+.contacto h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
 .formulario_contacto {
-  width: 400px;
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
   background-image: url(../fotos/fondo_parrafo.jpg);
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   color: rgb(250, 235, 215);
-  margin: auto;
-  font-size: 200%;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formulario_contacto label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.formulario_contacto input,
+.formulario_contacto textarea,
+.formulario_contacto select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+.formulario_contacto fieldset {
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  gap: 15px;
+}
+.formulario_contacto fieldset label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.formulario_contacto button {
+  background-color: #4783f3;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.formulario_contacto button:hover {
+  background-color: #ff0101;
 }
 
 /* PIE DE PAGINA */
@@ -338,6 +399,23 @@ footer p {
     width: 90%;
     height: auto;
     max-width: 300px;
+  }
+  .instalaciones {
+    width: 100%;
+    max-width: 100%;
+  }
+  .instalaciones img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    border-radius: 10px;
+  }
+  .genero-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 }
 

@@ -1,14 +1,83 @@
-@use "../generales/reset" as*;
-/* inicio pagina contacto */
+@use "../generales/reset" as *;
+
+/* FORMULARIO DE CONTACTO */
+.contacto {
+    text-align: center;
+    margin: 40px 0;
+
+    h2 {
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+}
 
 .formulario_contacto {
-    width: 400px;
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+
     background-image: url(../fotos/fondo_parrafo.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
+
     color: rgb(250, 235, 215);
-    margin: auto;
-    font-size: 200%;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    input,
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        resize: none;
+    }
+
+    fieldset {
+        border: none;
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.9rem;
+        gap: 15px; // Espacio entre cada opción
+
+        label {
+            font-weight: normal;
+            display: flex;
+            align-items: center;
+            gap: 5px; // Espacio entre el radio y el texto
+        }
+    }
+
+    button {
+        background-color: #4783f3;
+        color: rgb(255, 255, 255);
+        font-size: 1.1rem;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s ease;
+
+        &:hover {
+            background-color: #ff0101;
+        }
+    }
 }

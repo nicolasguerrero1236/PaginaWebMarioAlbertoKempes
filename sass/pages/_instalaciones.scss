@@ -1,4 +1,5 @@
 @use "../generales/reset" as*;
+
 /*COMIENZO INSTALACIONES*/
 .titulo_instalaciones {
     color: rgb(255, 255, 255);
@@ -19,21 +20,23 @@
     color: rgb(250, 235, 215);
     margin-bottom: 0%;
     margin-top: 0%;
+    text-align: center;
 
-    .instalaciones img {
+    img {
         display: block;
         margin: 0 auto;
-        width: 50%;
+        width: 80%;
         border-radius: 30px;
+        justify-content: center;
     }
 
-    .instalaciones h2 {
+    h2 {
         font-size: 40px;
         text-align: center;
         text-decoration: underline;
     }
 
-    .instalaciones p {
+    p {
         font-size: 20px;
     }
 }
