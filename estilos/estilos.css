@@ -422,11 +422,18 @@ footer p {
     max-width: none;
     border-radius: 10px;
   }
-  .generos-opciones {
+  fieldset {
+    border: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 5px;
+    gap: 10px;
+  }
+  fieldset .generos-opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 }
 
