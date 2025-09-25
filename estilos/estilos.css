@@ -422,9 +422,9 @@ footer p {
     max-width: none;
     border-radius: 10px;
   }
-  .genero-group {
+  .generos-opciones {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
   }
 }
